@@ -87,7 +87,32 @@
 // console.log(func3("func3です"));
 
 // 引数が二つ以上で足した数を返したい時
-const func4 = (num1, num2) => {
-  return num1 + num2;
-};
-console.log(func4(10, 20));
+// const func4 = (num1, num2) => {
+//   return num1 + num2;
+// };
+// console.log(func4(10, 20));
+// 通常の場合
+// const myProfile = {
+//   name: "yudai",
+//   age: 24
+// };
+// const message1 = `名前は${myProfile.name}です。年齢は${myProfile.age}歳です。
+// `;
+// console.log(message1);
+// 分割代入を使いもう少し便利にした場合
+// const myProfile = {
+//   name: "yudai",
+//   age: 24
+// };
+// const { name, age } = myProfile;
+// const message2 = `名前は${name}です。年齢は${age}歳です。
+// `;
+// console.log(message2);
+
+// const myProfile = ["Yudai", 24];
+// const message4 = `名前は${myProfile[0]}です。年齢は${myProfile[1]}歳です。`;
+// console.log(message4);
+
+// const [name, age] = myProfile;
+// const message5 = `名前は${name}です。年齢は${age}歳です。`;
+// console.log(message5);
