@@ -116,3 +116,19 @@
 // const [name, age] = myProfile;
 // const message5 = `名前は${name}です。年齢は${age}歳です。`;
 // console.log(message5);
+
+/**
+ * スプレッド構文
+ */
+
+//  通常の文
+// const arr1 = [10, 20];
+// console.log(arr1);
+// console.log(...arr1);
+
+// スポレッド構文をうまく使った例
+// const arr1 = [10, 20];
+
+// const sumFunc = (num1, num2) => console.log(num1 + num2);
+// // sumFunc(arr1[0], arr1[1]);
+// sumFunc(...arr1);
