@@ -132,3 +132,35 @@
 // const sumFunc = (num1, num2) => console.log(num1 + num2);
 // // sumFunc(arr1[0], arr1[1]);
 // sumFunc(...arr1);
+
+// まとめる
+// const arr2 = [1, 2, 3, 4, 5];
+// const [num1, num2, ...arr3] = arr2;
+// console.log(num1);
+// console.log(num2);
+// console.log(arr3);
+
+// 配列のコピーや結合（よく使う）
+// const arr4 = [10, 20];
+// const arr5 = [30, 40];
+
+// const arr6 = [...arr4];
+// console.log(arr6);
+// // スプレッド構文同士の結合
+// const arr7 = [...arr4, ...arr5];
+// console.log(arr7);
+
+//arr6の部分はただのコピーではいけないのか？
+// // ただのコピー
+// const arr8 = arr4;
+// console.log(arr8);
+// // この場合だとarr8の値を変えるとarr4も変わってしまう。
+// arr8[0] = 100;
+// console.log(arr8);
+// console.log(arr4);
+
+// // スプレッド構文で持ってくると大丈夫
+// const arr9 = [...arr4];
+// arr9[0] = 200;
+// console.log(arr9);
+// console.log(arr4);
