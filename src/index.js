@@ -164,3 +164,23 @@
 // arr9[0] = 200;
 // console.log(arr9);
 // console.log(arr4);
+
+/**
+ * mapやfilterを使った配列処理
+ */
+
+// for文を使った場合
+// const nameArr = ["田中", "鈴木", "佐藤"];
+// for (let index = 0; index < nameArr.length; index++){
+//   console.log(nameArr[index]);
+// }
+
+// // mapを使った例
+// const nameArr = ["田中", "鈴木", "佐藤"];
+// const nameArr2 = nameArr.map((name) => {
+//   return name;
+// })
+// console.log(nameArr2);
+
+// const nameArr = ["田中", "鈴木", "佐藤"];
+// nameArr.map((name) => console.log(name));
