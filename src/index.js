@@ -184,3 +184,37 @@
 
 // const nameArr = ["田中", "鈴木", "佐藤"];
 // nameArr.map((name) => console.log(name));
+
+/**
+ * filterについて
+ *  */
+// const numArr = [1, 2, 3, 4, 5];
+// const newNumArr = numArr.filter((num) => {
+//   return num % 2 === 1;
+// })
+// console.log(newNumArr);
+
+// 何番目は〇〇ですみたいな文（for文の場合）
+// const nameArr = ["田中", "鈴木", "佐藤"];
+// for (let index = 0; index < nameArr.length; index++) {
+//   console.log(`${index + 1}番目は${nameArr[index]}です。`);
+// }
+
+// mapを使用した場合
+// const nameArr = ["田中", "鈴木", "佐藤"];
+// nameArr.map((name, index) => console.log(`${index + 1}番目は${name}です！`));
+
+// // ゆうだいの時以外にはさんをつけて返す
+// const nameArr = ["田中", "鈴木", "佐藤", "ゆうだい"];
+// const newNameArr = nameArr.map((name) => {
+//   if (name === "ゆうだい") {
+//     return name;
+//   } else {
+//     return `${name}さん`;
+//   }
+// });
+// console.log(newNameArr);
+
+/**
+ * 三項演算子について
+ */
