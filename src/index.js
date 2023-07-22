@@ -218,3 +218,15 @@
 /**
  * 三項演算子について
  */
+// const num = 1300;
+// const formattedNum =
+//   typeof num === "number"
+//     ? num.toLocaleString()
+//     : "正しい数値を入力してください";
+// console.log(formattedNum);
+
+// 二つの数値の合計が100以上か以下で表示を変える
+// const checkSum = (num1, num2) => {
+//   return num1 + num2 > 100 ? "100を超えています！" : "許容範囲内です。";
+// };
+// console.log(checkSum(10, 50));
