@@ -230,3 +230,26 @@
 //   return num1 + num2 > 100 ? "100を超えています！" : "許容範囲内です。";
 // };
 // console.log(checkSum(10, 50));
+
+/**
+ * 論理演算子の本当の意味を知ろう
+ */
+// ||や&&を使った文のことを言います
+// 一般的な例
+// const num1 = true;
+// const num2 = false;
+
+// if (num1 || num2) {
+//   console.log("どちらかがtrueです");
+// };
+// if (num1 && num2) {
+//   console.log("どちらもがtrueです");
+// };
+
+// 本当の意味を使った例
+// const num = 100;
+// const fee = num || "数字を入力してください";
+// console.log(fee);
+
+// const fee2 = num && "数字が入力されました";
+// console.log(fee2);
